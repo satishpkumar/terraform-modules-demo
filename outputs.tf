@@ -9,3 +9,7 @@ output "vpc_cidr" {
   value = module.vpc.vpc_cidr
 
 }
+
+output "subnet_id" {
+  value = module.subnet.subnet_id
+}

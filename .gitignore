@@ -1,0 +1,11 @@
+.terraform/
+# Hide lock files created during terraform init (optional but recommended for local test folders)
+.terraform.lock.hcl
+
+# TF State files (Contains sensitive infrastructure data and secrets - DO NOT COMMIT)
+*.tfstate
+*.tfstate.*
+.terraformrc
+terraform.rc
+*.tfvars
+*.tfvars.json

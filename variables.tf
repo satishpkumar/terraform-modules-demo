@@ -21,3 +21,14 @@ variable "vpc_name" {
   default = "terraform-module-vpc"
 
 }
+variable "subnet_cidr" {
+  default = "10.0.1.0/24"
+}
+
+variable "az" {
+  default = "ap-south-1a"
+}
+
+variable "subnet_name" {
+  default = "module-public-subnet"
+}
