@@ -48,3 +48,27 @@ variable "sg_description" {
   default = "Allow SSH Access"
 
 }
+
+variable "ami_id" {
+
+  type = string
+
+  default = "YOUR_WORKING_AMI"
+
+}
+
+variable "instance_type" {
+
+  type = string
+
+  default = "t2.micro"
+
+}
+
+variable "instance_name" {
+
+  type = string
+
+  default = "module-ec2"
+
+}

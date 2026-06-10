@@ -40,3 +40,21 @@ module "security_group" {
 
 }
 
+module "ec2" {
+
+  source = "./modules/ec2"
+
+  ami_id = var.ami_id
+
+  instance_type = var.instance_type
+
+  instance_name = var.instance_name
+
+  subnet_id = module.subnet.subnet_id
+
+  security_group_id = module.security_group.security_group_id
+
+}
+
+
+
