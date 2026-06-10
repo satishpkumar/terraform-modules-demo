@@ -27,3 +27,16 @@ module "subnet" {
   subnet_name = var.subnet_name
 
 }
+
+module "security_group" {
+
+  source = "./modules/security_group"
+
+  vpc_id = module.vpc.vpc_id
+
+  sg_name = var.sg_name
+
+  sg_description = var.sg_description
+
+}
+
