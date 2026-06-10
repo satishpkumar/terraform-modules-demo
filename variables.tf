@@ -69,6 +69,6 @@ variable "instance_name" {
 
   type = string
 
-  default = "module-ec2"
+  default = "ami-0685bcc683dadb6b9"
 
 }
