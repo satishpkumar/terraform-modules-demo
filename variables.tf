@@ -32,3 +32,19 @@ variable "az" {
 variable "subnet_name" {
   default = "module-public-subnet"
 }
+
+variable "sg_name" {
+
+  type = string
+
+  default = "web-sg"
+
+}
+
+variable "sg_description" {
+
+  type = string
+
+  default = "Allow SSH Access"
+
+}
