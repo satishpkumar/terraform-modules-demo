@@ -53,7 +53,7 @@ variable "ami_id" {
 
   type = string
 
-  default = "YOUR_WORKING_AMI"
+  default = "ami-0685bcc683dadb6b9"
 
 }
 
@@ -69,6 +69,6 @@ variable "instance_name" {
 
   type = string
 
-  default = "ami-0685bcc683dadb6b9"
+  default = "module-ec2"
 
 }
