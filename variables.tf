@@ -53,7 +53,7 @@ variable "ami_id" {
 
   type = string
 
-  default = "ami-0685bcc683dadb6b9"
+  default = "ami-0db56f446d44f2f09"
 
 }
 
@@ -61,7 +61,7 @@ variable "instance_type" {
 
   type = string
 
-  default = "t2.micro"
+  default = "t3.micro"
 
 }
 
